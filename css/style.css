@@ -1,10 +1,10 @@
 body {
-    background-color: #111111;
+    background-color: #222222;
 }
 
 .title-container {
     position: relative;
-   top: 36vh;
+    top: 36vh;
     text-align: center;
     color: #EEEEEE;
     letter-spacing: 4px;
@@ -13,9 +13,9 @@ body {
     font-size: 6em;
 }
 
-.sub-title{
-   position: relative;
-   top: 38vh;
+.sub-title {
+    position: relative;
+    top: 38vh;
     text-align: center;
     color: #EEEEEE;
     letter-spacing: 4px;
@@ -23,11 +23,11 @@ body {
     font-size: 1.5em;
 }
 
-.overlay{
-   position: absolute;
-   background-color: rgba(0,0,0,0.5);
-   width: 100vw;
-   height: 100vh;
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
 }
 
 .big-container {
@@ -61,7 +61,9 @@ body {
     font-size: 28px;
 }
 
-.left-arrow,.right-arrow,.dot-button {
+.left-arrow,
+.right-arrow,
+.dot-button {
     cursor: pointer;
 }
 
@@ -93,11 +95,35 @@ body {
     padding-right: 16px;
 }
 
-.left-arrow,.right-arrow {
+.left-arrow,
+.right-arrow {
     color: rgba(255, 255, 255, 0.4);
     transition: background-color .3s, color .15s, opacity 0.3s;
 }
 
-.left-arrow:hover,.right-arrow:hover {
+.left-arrow:hover,
+.right-arrow:hover {
     color: #EEEEEE
+}
+
+@media only screen and (max-width: 767px) {
+    .title-container {
+        position: relative;
+        top: 52vh;
+        text-align: center;
+        color: #EEEEEE;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-size: 3.75em;
+    }
+    .sub-title {
+        position: relative;
+        top: 54vh;
+        text-align: center;
+        color: #EEEEEE;
+        letter-spacing: 4px;
+        font-family: 'Crimson Text', serif;
+        font-size: 1em;
+    }
 }
