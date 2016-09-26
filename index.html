@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sliding Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Oswald" rel="stylesheet">
+</head>
+
+<body>
+    <div class="big-container">
+        <div class="slides-container">
+            <img class="slides" src="./image/sf.jpeg">
+            <img class="slides" src="./image/sd.jpeg">
+            <img class="slides" src="./image/seattle.jpeg">
+            <img class="slides" src="./image/seattown.jpeg">
+            <img class="slides" src="./image/tree.jpeg">
+            <img class="slides" src="./image/nyc.jpeg">
+            <img class="slides" src="./image/bk.jpeg">
+        </div>
+        <div class="overlay">
+            <h1 class="title-container">four corners</h1>
+            <h2 class="sub-title">the places i've called home</h2>
+        </div>
+        <div class="buttons-container">
+            <div class="left-arrow" onclick="switchSlide(-1)">&#10094;</div>
+            <div class="right-arrow" onclick="switchSlide(1)">&#10095;</div>
+            <span class="dot-button myDot" onclick="currentSlide(1)"></span>
+            <span class="dot-button myDot" onclick="currentSlide(2)"></span>
+            <span class="dot-button myDot" onclick="currentSlide(3)"></span>
+            <span class="dot-button myDot" onclick="currentSlide(4)"></span>
+            <span class="dot-button myDot" onclick="currentSlide(5)"></span>
+            <span class="dot-button myDot" onclick="currentSlide(6)"></span>
+            <span class="dot-button myDot" onclick="currentSlide(7)"></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
