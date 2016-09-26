@@ -4,18 +4,18 @@ body {
 
 .title-container {
     position: relative;
-   top: 34vh;
+   top: 36vh;
     text-align: center;
     color: #EEEEEE;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 8vw;
+    font-size: 6em;
 }
 
 .sub-title{
    position: relative;
-   top: 36vh;
+   top: 38vh;
     text-align: center;
     color: #EEEEEE;
     letter-spacing: 4px;
