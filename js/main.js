@@ -1,6 +1,9 @@
 let slideIndex = 1;
 showSlide(slideIndex);
 
+
+
+
 function switchSlide(n) {
     showSlide(slideIndex += n);
 }
@@ -36,3 +39,5 @@ function showSlide(n) {
 window.setInterval(function() {
     switchSlide(1)
 }, 10000);
+
+

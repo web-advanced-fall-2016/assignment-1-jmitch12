@@ -11,6 +11,7 @@
     flex-flow: column nowrap;
     right:4vw;
     top: 4vh;
+    cursor: pointer;
 }
 
 .accordion-item>.item-content {
